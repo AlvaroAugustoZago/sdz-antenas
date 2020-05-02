@@ -1,0 +1,30 @@
+p {
+    width: 360px;
+    height: 20px;
+    padding-left: 150px;
+    padding-top: 110px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.08333px;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+.icon-left {
+    background: url('../../assets/Iconleft.svg');
+    height: 30px;
+    width: 40px;
+    display: block;
+}
+
+.icon-right {
+    background: url('../../assets/Iconright.svg');
+    height: 30px;
+    width: 40px;
+    display: block;
+}

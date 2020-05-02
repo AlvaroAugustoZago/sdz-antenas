@@ -1,0 +1,47 @@
+.item {
+    width: 263px;
+    height: 177px;
+    display: table;
+}
+
+.icone {
+    text-align: center;
+    vertical-align: middle;
+    display: table-row;
+    top: 0%;
+    bottom: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.55px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explicativo {
+    height: 56px;
+    left: 0px;
+    right: 0px;
+    top: 121px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #7A7A7A;
+    text-align: center;
+    vertical-align: middle;
+    display: table-row;
+}

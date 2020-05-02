@@ -1,0 +1,26 @@
+p {
+    width: 556px;
+    height: 113px;
+    padding-left: 442px;
+    padding-top: 34px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #000000;
+}
+
+.cards {
+    display: table;
+    padding-left: 50px;
+}
+
+.item-cards {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 40px;
+}

@@ -1,0 +1,29 @@
+.item {
+    width: 263px;
+    height: 177px;
+    display: table;
+}
+
+.icone {
+    text-align: center;
+    vertical-align: middle;
+    display: table-row;
+    top: 0%;
+    bottom: 30%;
+}
+
+.explicativo {
+    width: 700px;
+    height: 62px;
+    left: 127px;
+    top: 274px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 31px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-row;
+    color: #666666;
+}

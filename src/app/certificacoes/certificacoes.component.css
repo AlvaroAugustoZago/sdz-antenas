@@ -1,0 +1,29 @@
+p {
+    width: 521px;
+    height: 64px;
+    padding-left: 442px;
+    padding-top: 55px;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    color: #000000;
+}
+
+.certificados {
+    display: table;
+}
+
+.certificado {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 20%;
+}
+
+.certificado~.certificado {
+    padding-left: 60%;
+}

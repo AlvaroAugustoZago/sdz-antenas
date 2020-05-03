@@ -3,6 +3,7 @@
     height: 526px;
     float: left;
     padding-top: 10%;
+    z-index: 1;
 }
 
 .icone-telefone {
@@ -144,4 +145,5 @@ div.row {
     height: 427px;
     position: absolute;
     padding-left: 41%;
+    z-index: -1;
 }

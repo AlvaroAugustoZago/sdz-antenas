@@ -13,17 +13,17 @@ p {
     color: #000000;
 }
 
-.certificados {
-    display: table;
-}
-
 .certificado {
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .certificado~.certificado {
     padding-left: 60%;
+}
+
+div.column {
+    width: 50%;
+    float: left;
 }

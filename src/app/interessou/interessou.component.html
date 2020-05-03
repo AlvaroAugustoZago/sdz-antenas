@@ -1,5 +1,10 @@
 <div class="column">
-    <img src="../../assets/mapa.png" class="mapa" />
+    <!--img src="../../assets/mapa.png" class="mapa" /-->
+
+    <agm-map [latitude]="lat" [zoom]="zoom" [longitude]="lng" class="mapa">
+        <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+    </agm-map>
+
 </div>
 <div class="column">
     <p class="cabecalho">Temos nosso escritório</p>

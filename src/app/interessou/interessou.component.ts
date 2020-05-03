@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InteressouComponent implements OnInit {
 
+  lat: number = -26.051737;
+  lng: number = -48.611604;
+  zoom: number = 15;
+
   constructor() { }
 
   ngOnInit() {

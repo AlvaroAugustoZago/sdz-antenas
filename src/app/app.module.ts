@@ -12,6 +12,7 @@ import { TestemunhosComponent } from './testemunhos/testemunhos.component';
 import { CertificacoesComponent } from './certificacoes/certificacoes.component';
 import { InteressouComponent } from './interessou/interessou.component';
 import { ContatoComponent } from './contato/contato.component';
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
    declarations: [
@@ -28,7 +29,10 @@ import { ContatoComponent } from './contato/contato.component';
       ContatoComponent
    ],
    imports: [
-      BrowserModule
+      BrowserModule,
+      AgmCoreModule.forRoot({
+         apiKey: 'AIzaSyBcRARz3tdYFnGgsciYqfC9WPoS3mzYsCA'
+      })
    ],
    providers: [],
    bootstrap: [

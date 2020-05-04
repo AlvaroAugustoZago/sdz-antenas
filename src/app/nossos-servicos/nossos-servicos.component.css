@@ -59,10 +59,12 @@ p {
 .ilustracao_caixas {
     position: absolute;
     padding-top: 10%;
+    z-index: -1;
 }
 
 .ilustracao_concertando {
     position: absolute;
     padding-top: 10%;
     padding-left: 74%;
+    z-index: -1;
 }

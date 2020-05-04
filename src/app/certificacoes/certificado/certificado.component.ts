@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-certificado',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./certificado.component.css']
 })
 export class CertificadoComponent implements OnInit {
+
+  @Input() explicativo;
 
   constructor() { }
 
